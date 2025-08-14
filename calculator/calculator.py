@@ -14,5 +14,6 @@ elif operator == "/":
     result /= next_number
 else:
     print("無効な演算子です。")
+    exit()
 
 print("計算結果：", result)
