@@ -1,6 +1,6 @@
 # 電卓ツール
 
-## ユーザーフロー
+## 処理フロー
 
 ```mermaid
 flowchart TD
@@ -14,11 +14,4 @@ flowchart TD
     A --> B --> C
     C -->|入力エラー| E --> F
     C -->|正常入力| D --> F
-```
-
-## 処理フロー
-
-```mermaid
-flowchart TD
-
 ```
