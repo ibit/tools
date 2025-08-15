@@ -4,9 +4,9 @@
 
 ```mermaid
 flowchart TD
-    A[任意の数字を入力]
+    A[任意の値を入力]
     B[任意の演算子を入力]
-    C[次の任意の数字を入力]
+    C[次の任意の値を入力]
     D[計算結果を表示]
     E[エラー処理]
     F[終了]
@@ -20,5 +20,5 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    
+
 ```
