@@ -3,9 +3,9 @@ number = float(input("数字を入力してください："))
 
 #operatorに演算子を入力
 while True:
-    operator = input("演算子を入力してください(計算を終了する場合はeを入力)：")
+    operator = input("演算子を入力してください(計算を終了する場合はeを入力)：").lower()
 
-    if operator == "e":
+    if operator.lower() == "e":
         break
         
     try:
