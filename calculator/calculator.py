@@ -21,10 +21,13 @@ while True:
     elif operator == "*":
         number *= next_number
     elif operator == "/":
+        if next_number == 0:
+            print("0で割ることはできません。")
+            continue
         number /= next_number
     else:
         print("無効な演算子です。")
         continue
 
-    print("計算結果：", number)
+    print("途中結果：", number)
 print("最終結果：", number)
