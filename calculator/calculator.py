@@ -31,3 +31,8 @@ while True:
         print("途中結果：", number)
 
     print("最終結果：", number)
+
+    restart = input("もう一度計算しますか？(y/n)：").lower()
+    if restart != "y":
+        print("プログラムを終了します。")
+        break
